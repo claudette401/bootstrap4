@@ -43,22 +43,24 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 text-white">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                <div class="col-12 col-sm-3">
+                    <img src="img/logo.png" class="img-fluid"></div>
+                <div class="col-12 col-sm-3">
+                    <a class="btn btn-small btn-small btn-block bg-warning" role="button" href="#resform">Reserve a Table</a>
                 </div>
             </div>
         </div>
     </header>
 
-<div class="container"><div class="row">
+<!--<div class="container"><div class="row">
     <ol class="col-12 breadcrumb">
         
     </ol>
-</div></div>
+</div></div>-->
 
 
 <div class="container">
@@ -87,7 +89,7 @@
                 <div class="media">
 
                 <div class="media-body">
-                    <h2 class="mt-0">Weekend Grand Buffet</h2>
+                    <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW!</span></h2>
                     <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                 </div>
 
@@ -96,6 +98,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -111,6 +114,54 @@
                 </div>
                 </div>
             </div>
+        </div>
+
+
+        <div class="row row-content" id="resform">
+                <div class="col-12 col-sm-8 offset-sm-2">
+                    <div class="card">
+                        <div class="card-header bg-warning text-white"><h3>Reserve a Table</h3></div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="resnum" class="col-12 col-md-3 col-form-label">Number of Guests</label>
+                                    <div class="col-9 offset-3 col-md offset-md-0">
+                                        <label for="resnumradio" class="form-radio-label">
+                                            <input type="radio" class="form-control" id="1" name="resnumradio" value="1">1</label>
+                                        <label for="resnumradio" class="form-radio-label">                             
+                                            <input type="radio" class="form-control" id="2" name="resnumradio" value="2" checked>2</label>
+                                        <label for="resnumradio" class="form-radio-label">
+                                            <input type="radio" class="form-control" id="3" name="resnumradio" value="3">3</label>
+                                        <label for="resnumradio" class="form-radio-label">
+                                            <input type="radio" class="form-control" id="4" name="resnumradio" value="4">4</label>
+                                        <label for="resnumradio" class="form-radio-label">
+                                            <input type="radio" class="form-control" id="5" name="resnumradio" value="5">5</label>
+                                        <label for="resnumradio" class="form-radio-label">
+                                            <input type="radio" class="form-control" id="6" name="resnumradio" value="6">6</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="resdate" class="col-12 col-md-3 col-form-label">Date &amp; Time</label>
+                                    <div class="col-12 col-md-4">
+                                        <input type="date" class="form-control" id="resdate" name="resdate" value="2018-12-14" placeholder="Date">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <input type="time" class="form-control" id="restime" name="restime" value="18:00" placeholder="Time" min="14:00" max="00:00" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary" id="makeres" name="resdate" value="2018-12-14" placeholder="Date">Reserve</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
         </div>
 
 </div>
@@ -142,11 +193,11 @@
 
                 <div  class="col-12 col-sm-3 text-center align-items-center">
                         <h5>Contact Us</h5>
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a><br>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a><br>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a><br>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a><br>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a><br>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
                 </div>
 

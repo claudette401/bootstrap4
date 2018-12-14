@@ -1,8 +1,10 @@
+* {box-sizing: border-box;}
 .row-header {margin:0px auto; padding: 0px auto;}
 
 .row-content {margin:0px auto; padding: 50px 0px; border-bottom: 1px ridge; min-height: 400px;}
 
 .row-footer {background-color: #D1C4E9; margin:0px auto; padding: 20px 0px;}
+
 
 body {padding: 50px 0px; z-index: 0;}
 
@@ -13,7 +15,10 @@ body {padding: 50px 0px; z-index: 0;}
 
 address {font-size: 80%; margin: 0px; color: #0f0f0f; padding-bottom: 15px;}
 
+input[type="radio"] {display: inline;}
+label[for="resnumradio"] {text-align: center;}
 
+a[role="button"] {color: black;}
 
 .content-leadership h3 {padding: 5px 30px;}
 
