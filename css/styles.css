@@ -36,3 +36,5 @@ a[role="button"] {color: black;}
 .carousel-item img {position: absolute; top: 0; left: 0; min-height: 300px;}
 
 .carousel-caption {float: right; text-align: right; width: 80%; padding-left: 20%; padding-top: 10%; position: absolute; top: 0; right: 0;  }
+
+#carouselButton {right: 0px; position: absolute; bottom: 0px;}
